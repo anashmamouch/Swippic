@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:background="#77000000"
+            android:textColor="#CCFFFFFF"/>
+
+    </FrameLayout>
+
+        <TextView
+            android:id="@+id/left_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#77F57C00"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="TRASH"
+            android:textSize="48sp"/>
+
+        <TextView
+            android:id="@+id/right_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#77303F9F"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="KEEP"
+            android:textSize="48sp"/>
+
+
+</android.support.v7.widget.CardView>
